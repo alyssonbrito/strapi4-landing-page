@@ -502,7 +502,13 @@ export interface ApiLandingPageLandingPage extends Struct.CollectionTypeSchema {
     slug: Schema.Attribute.UID<'Title'>;
     metadata: Schema.Attribute.Component<'seo.meta-data', false>;
     blocks: Schema.Attribute.DynamicZone<
-      ['blocks.hero', 'blocks.row', 'blocks.pricing-row', 'blocks.cta']
+      [
+        'blocks.hero',
+        'blocks.row',
+        'blocks.pricing-row',
+        'blocks.cta',
+        'blocks.card-row',
+      ]
     >;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;

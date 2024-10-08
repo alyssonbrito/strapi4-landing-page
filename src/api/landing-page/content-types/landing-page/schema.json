@@ -33,7 +33,8 @@
         "blocks.hero",
         "blocks.row",
         "blocks.pricing-row",
-        "blocks.cta"
+        "blocks.cta",
+        "blocks.card-row"
       ]
     }
   }

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blocks_card_rows",
+  "info": {
+    "displayName": "CardRow",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.card"
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

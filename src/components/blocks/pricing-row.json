@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_pricing_rows",
+  "info": {
+    "displayName": "Pricing Row",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "plan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.pricing-card"
+    }
+  }
+}

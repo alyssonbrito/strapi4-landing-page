@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_pricing_row_pages",
+  "info": {
+    "displayName": "Pricing Row Page"
+  },
+  "options": {},
+  "attributes": {
+    "pricingRowWrappers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.pricing-row-wrapper"
+    }
+  }
+}
